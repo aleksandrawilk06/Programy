@@ -1,8 +1,6 @@
-# Programy
-Program pierwszy, oblicznie wieku:
+# Program do obliczania wieku
 
 #include <iostream>
-
 
 using namespace std;
 
