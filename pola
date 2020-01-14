@@ -1,6 +1,6 @@
 #Program do obiczania pola trapezu
-#include <iostream>
 
+#include <iostream>
 
 using namespace std;
 int main()
