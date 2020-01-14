@@ -1,0 +1,27 @@
+#Program do obiczania pola trapezu
+#include <iostream>
+
+
+using namespace std;
+int main()
+{
+    float a;
+    float b;
+    float h;
+    float p;
+    
+    cout << "WITAJ W MOIM PROGRAMIE" << endl;
+    cout << "PROGARM OBLICZA POLE TRAPEZU" << endl;
+    cout << "Podaj pierwszy bok trapezu a = ";
+    cin >> a;
+    cout << "Podaj drugi bok trapezu b = ";
+    cin >> b;
+    cout << "Podaj wysokosc trapezu h = ";
+    cin >> h;
+    
+    p=(a+b)*h/2;
+    
+    cout << "Obliczone pole trapezu wysnosi p = " << p;
+    
+    return 0;
+}
