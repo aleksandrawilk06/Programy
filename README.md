@@ -8,7 +8,7 @@ int main()
 {
     int urodziny;
     
-    cout << "WITAJ W MOIM PROGRAMIE. MY NAME IS ALEXANDRA WILK" << endl;
+    cout << "WITAJ W MOIM PROGRAMIE" << endl;
     cout << "PROGARM OBLICZA ILE MASZ LAT" << endl;
     cout << "Podaj rok urodzenia: ";
     cin >> urodziny;
