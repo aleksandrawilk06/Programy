@@ -1,1 +1,46 @@
 # Programy
+Program pierwszy, oblicznie wieku:
+
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+    int urodziny;
+    
+    cout << "WITAJ W MOIM PROGRAMIE. MY NAME IS ALEXANDRA WILK" << endl;
+    cout << "PROGARM OBLICZA ILE MASZ LAT" << endl;
+    cout << "Podaj rok urodzenia: ";
+    cin >> urodziny;
+    
+    cout << 2020-urodziny << endl;
+    cout << "Czy jestem pelnoletni?" << endl;
+    
+    if(2020-urodziny >= 18)
+    {
+        if(2020-urodziny == 2020)
+        {
+            cout << "ERROR ERROR, PRZEGRZANIE KOMPUTERA";
+        }
+        else
+        {
+            cout << "Jestes pelnoletni!!! CONGRATULATION!!";
+        }
+    }
+    else
+    {
+        if(2020-urodziny  < 0)
+        {
+            cout << "ERROR ERROR, nie istneijesz";
+        }
+        else
+        {
+        cout << "Nie jestes" << endl;
+        cout << "Masz mniej niz 18 lat" << endl;
+        }
+    }
+
+    return 0;
+}
